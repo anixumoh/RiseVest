@@ -1,0 +1,19 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "A Cypress project configured automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "e2e:electron": "npx cypress run -b electron --headless --spec cypress/e2e/*js",
+    "e2e:firefox": "npx cypress run -b firefox --headless --spec cypress/e2e/*js",
+    "e2e:chromium": "npx cypress run -b chrome --headless --spec cypress/e2e/*js",
+    "e2e:edge": "npx cypress run -b edge --headless --spec cypress/e2e/*js"
+     },
+  "devDependencies": {
+    "allure-commandline": "^2.29.0",
+    "allure-cypress": "^2.15.1",
+    "cypress": "latest",
+    "playwright-webkit": "^1.48.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "email": "anixumoh7@gmail.com",
+  "password": "P@ssw0rd",
+  "message": "Invalid email or password",
+  "invalidPassword": "password",
+  "invalidEmail": "invalid@email.com"
+}
