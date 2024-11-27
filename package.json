@@ -4,7 +4,6 @@
   "description": "A Cypress project configured automatically",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run",
     "e2e:electron": "npx cypress run -b electron --headless --spec cypress/e2e/*js",
     "e2e:firefox": "npx cypress run -b firefox --headless --spec cypress/e2e/*js",
     "e2e:chromium": "npx cypress run -b chrome --headless --spec cypress/e2e/*js",
